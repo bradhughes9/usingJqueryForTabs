@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lab 4</title>
+		<link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="css/firefox.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script> 
+		$(document).ready(function(){
+		$("#but1").click(function() {
+			$("#tab2,#tab3,#tab4").hide();
+			$("#tab1").show();
+			});
+			
+		$("#but2").click(function() {
+			$("#tab1,#tab3,#tab4").hide();
+			$("#tab2").show();
+			});
+			
+		$("#but3").click(function() {
+			$("#tab1,#tab2,#tab4").hide();
+			$("#tab3").show();
+			});
+			
+		$("#but4").click(function() {
+			$("#tab1,#tab2,#tab3").hide();
+			$("#tab4").show();
+			});
+					
+		});
+		
+
+</script>
+	</head>
+	<div class="page">
+	<body>
+		<div class='tabs' id="tabDesign">
+			<button class="tabButtons" id="but1">JavaScript</button>
+			<button class="tabButtons" id="but2">PHP</button>
+			<button class="tabButtons" id="but3">AJAX</button>
+			<button class="tabButtons" id="but4">Jquery</button>
+			
+		</div>
+		<div id='tab1'>
+			<h1>Javascript</h1>
+			<p>
+				JavaSctipt is a programming language that brings life to your webpage in many different ways. Java script can alter the style your page,change the 
+				content in your page, and also show/hide content in your webpage. JavaScript, HTML, and CSS all three go hand in hand when building a webpage. HTML is
+				the is the foundation of the webpage, CSS customizes that foundation, and JavaScript makes the webpage more dynamic by allowing the content to be programmable. 
+				Using JavaScript is just like using Java, except your web browser has a built in enterpreter. You can do things with JavaScript like make your page refresh
+				on it's own, autofill text boxes, and much more. Adding JavaScript to your website is as simple as adding CSS, all you have to do is link the ".js" with all
+				all of your javascript to your html document. For the gaming aspect of JavaScript, it can be used to develop mobile apps and also games that are directly played
+				on your web browser. All of this coding is done by writing what are known as Scripts in the JavaScript language. From the sounds of it JavaScript is mainly used
+				for the front end development of webpages, but it is also used in the back end of development. To learn more about JavaScript review the links below.
+			 </p>
+			 <ul>
+				<li><a href="https://www.makeuseof.com/tag/what-is-javascript/" rel="external" title="Website about JavaScript">makeusof</a></li>
+				<li><a href="https://www.w3schools.com/whatis/whatis_js.asp" rel="external" title="Website about JavaScript and more">W3Schools</a></li>
+				<li><a href="https://skillcrush.com/2012/04/05/javascript/#add" rel="external" title="Website about JavaScript">skillcrush</a></li>
+			 </ul>
+		</div>
+		<div id='tab2' style="display: none">
+			<h1>PHP</h1>
+			<p>
+				PHP is a server side scripting language that can be used for anything web development related. While PHP is a easy to pick up language for beginners
+				it can also be used by more advanced/professional users as well. PHP is scripts that are coded into your HTML file or in it's own file on a text editor,
+				but are executed on the server side. If you plan to use PHP make sure you have a FTP client so that you can transfer your files from your computer to your
+				website. PHP is similar to most software languages in regards to using variables, booleans, arrays, etc. So having a basic understanding of HTML and maybe
+				even other coding languages can give you an advantage with using PHP. For more information on PHP visit the links below.
+			</p>
+			<ul>
+				<li><a href="https://www.w3schools.com/php/default.asp" rel="external" title="Website about PHP">W3Schools</a></li>
+				<li><a href="https://www.thoughtco.com/learn-php-2693925" rel="external" title="Website about PHP">ThoughtCo.</a></li>
+				<li><a href="https://www.php.net/manual/en/intro-whatis.php" rel="external" title="Website about PHP">Php.net</a></li>
+			</ul>
+		</div>
+		<div id='tab3' style="display: none">
+			<h1>AJAX</h1>
+			<p>
+				AJAX stands for Asynchronous JavaScript And XML. AJAX is used to perform tasks in the background by accessing webservers from webpages so that
+				tasks can be performed without even having to refresh th page. AJAX is not a programming language but is a method of building websites and web applications.
+				A good example of AJAX being used is whenever you type in a search bar, login box, or anything of the sort and the box begins to autofill the more you 
+				type, that box is refreshing and bringing you new content without refreshing the entire page. There are also functions AJAX can do that require the page
+				to reload, say you are on any forum that contains multiple pages and you want to goto the next page, when you click the "Next Page" button and a bunch of
+				new data shows up, that is AJAX working with JSON or XML. Having an understanding of AJAX can widen your ability of desinging and creating websites.
+				View the links below for more information on AJAX.
+			<p>
+			<ul>
+				<li><a href="https://www.w3schools.com/js/js_ajax_intro.asp" rel="external" title="Website about AJAX">W3Schools</a></li>
+				<li><a href="https://www.codementor.io/sheena/ajax-tutorial-web-development-du107rzaq" rel="external" title="Website about AJAX">CodeMentor</a></li>
+				<li><a href="https://skillcrush.com/2018/04/26/what-is-ajax/" rel="external" title="Website about AJAX">SkillCrush</a></li>
+			</ul>
+		</div>
+		<div id='tab4' style="display: none">
+			<h1>Jquery</h1>
+			<p>
+				Jquery is a framework that makes the use of Javascript much easier for you to use. It is the most popular framework out there today. Lots of major companies
+				and also smaller companies are all using Jquery becasue of howmuch simplier and cleaner it is to code. Jquery saves web developers a lot of time and energy 
+				by allowing them to write what used to be a lot of code into just a few short lines of code. Jquery has a large number of plugins that you can use on your webpage
+				that range from what they can do from effecting scrolling, to auto completion and much more. Jquery is mainly used to maipulate most aspects of your webpage.
+				Now that you've heard all of the great stuff you may be wonderiing how you can use Jquery yourself, well there are a couple of ways. The first way would be to 
+				use this Content Delivery Network from google: src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js". Another alternative would be to go to 
+				<a href="https://jquery.com/" rel="external" title="jquery download">Here</a></li> and download it to use as a seperate file. Below are links for more information
+				on Jquery!
+
+			</p>
+			<ul>
+				<li><a href="https://www.w3schools.com/whatis/whatis_jquery.asp" rel="external" title="Website about Jquery">W3Schools Jquery</a></li>
+				<li><a href="https://skillcrush.com/2018/07/13/what-is-jquery-used-for/" rel="external" title="Website about Jquery">SkillCrush</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/JQuery" rel="external" title="Website about Jquery">Jquery Wikipedia</a></li>
+			</ul>	
+				
+		</div>
+		<div class="footer">
+			<footer>
+				<p> © Bradley Hughes
+			</footer>
+		</div>
+		</div>
+</html>

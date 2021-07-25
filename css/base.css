@@ -1,0 +1,56 @@
+.page {
+	max-width:100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: white;
+	min-height: 100%;
+}
+h1, h2 {
+	text-align: center;
+	color: white;
+	
+}
+footer {
+	text-align: center;
+	border-style: dotted;
+	border-color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+}
+ul {
+	list-style-type: none;
+	text-align: center;
+	font-size: 1.1em;
+}
+p {
+	text-indent: 1em;
+	color: white;
+	font-size: 1.15em;
+}
+html {
+	background-image: url("../bg.jpg");
+}
+a {
+	text-decoration: none;
+}
+.tabButtons {
+	background-color: #555555;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	width: 15%;
+	color: white;
+	height: 2em;
+	border-radius: 20%;
+	margin: 1.3em;
+}
+#tabDesign {
+	text-align: center;
+	
+}
+a {
+	background-color: yellow;
+     color: #000000;
+     
+}
